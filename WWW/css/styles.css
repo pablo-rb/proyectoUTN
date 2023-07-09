@@ -1,0 +1,77 @@
+html {
+    font-size: 62.5%;
+    margin: 0 0;
+    background-color: black;
+}
+body {
+    font-size: 16px; /* 1rem = 10px*/
+    font-family: 'Krub', sans-serif;
+    width: 120rem;
+    margin: 0 auto;
+}
+body header {
+    background-color: rgb(74, 74, 74);
+}
+h1 {
+    text-align: center;
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: white;
+    margin: 0 auto;
+    padding: 1rem 0rem;
+}
+p {
+    line-height: normal;
+}
+
+.contenedor {
+    width: 120rem; /*1200px*/
+    margin: 0 auto;
+}
+
+.imgSwitch {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.seccion-contenedor {
+    color: white;
+    background-color: rgb(116, 116, 116);
+    padding: 0.5rem 2rem;
+}
+
+.contactoC {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.simbolos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.simbolos p {
+    line-height: 0;
+}
+
+.laboral {
+    background-color: rgb(145, 145, 145);
+}
+
+.seccion-contenedor a {
+    text-decoration: none;
+    color: white;
+}
+
+.seccion-contenedor a:hover {
+    color: antiquewhite;
+}
+
+.footer-contenedor {
+    color: white;
+    background-color: rgb(181, 181, 181);
+    padding: 0.5rem 2rem;
+}

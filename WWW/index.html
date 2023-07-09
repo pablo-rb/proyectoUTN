@@ -3,49 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Mi CV</title>
 </head>
 <body>
     <header>
         <h1>Pablo Andrés Rodríguez</h1>
-        <img src="IMG/foto_switch_ABB.jpg" alt="Foto Switch Ethernet/FO de la marca ABB" height="200px" width=500px>
+        <div class="imgSwitch">
+            <img src="IMG/foto_switch_ABB.jpg" alt="Foto Switch Ethernet/FO de la marca ABB" height="200px" width=500px>
+        </div>
     </header>
-    <main>
-        <section>
+    <main class="contenedor">
+        <section class="seccion-contenedor">
             <div>
                 <p><b>Edad:</b> 25/03/1997 (26 años)</p>
                 <p><b>Residencia:</b> CABA</p>
             </div>
             <div>
-                <h2>PERFIL</h2>
-                <p>
-                    Soy estudiante de ingeniería informática e ingeniería electrónica de telecomunicaciones. Enfoco mi carrera en aportar conocimiento, creatividad y entusiasmo con el fin de construir un mundo más desarrollado.
-                </p>
+                <div>
+                    <h2>PERFIL</h2>
+                    <p>Soy estudiante de ingeniería informática e ingeniería electrónica de telecomunicaciones. Enfoco mi carrera en aportar conocimiento, creatividad y entusiasmo con el fin de construir un mundo más desarrollado.</p>
+                </div>
+                <div>
+                    <div>
+                        <h2>CONTACTO</h2>
+                        <div class="contactoC">
+                            <div class="simbolos">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14z" />
+                                    <path d="M11 4h2" />
+                                    <path d="M12 17v.01" />
+                                </svg>
+                                <b>TEL. CEL.</b>
+                                <p>(+54) 11 2387-5467</p>
+                            </div>
+
+                            <div class="simbolos">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                                    <path d="M8 11l0 5" />
+                                    <path d="M8 8l0 .01" />
+                                    <path d="M12 16l0 -5" />
+                                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                                </svg>
+                                <b>LINKEDIN</b>
+                                <p>www.linkedin.com/in/pablo-andres-rodriguez-bernardiz</p>
+                            </div>
+
+                            <div class="simbolos">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-at" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                                    <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" />
+                                </svg>
+                                <b>EMAIL</b>
+                                <p>pablo@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2>IDIOMAS</h2>
+                    <ul>
+                        <li>
+                            <b>ESPAÑOL</b>
+                            <p>Nativo</p>
+                        </li>
+                        <li>
+                            <b>CATALAN</b>
+                            <p>Nativo</p>
+                        </li>
+                        <li>
+                            <b>ÍNGLES</b>
+                            <p>C1</p>
+                        </li>
+                        <li>
+                            <b>ALEMÁN</b>
+                            <p>B1</p>
+                        </li>
+                    </ul>
+                </dvi>
             </div>
-            <div>
-                <h2>IDIOMAS</h2>
-                <ul>
-                    <li>
-                        <b>ESPAÑOL</b>
-                        <p>Nativo</p>
-                    </li>
-                    <li>
-                        <b>CATALAN</b>
-                        <p>Nativo</p>
-                    </li>
-                    <li>
-                        <b>ÍNGLES</b>
-                        <p>C1</p>
-                    </li>
-                    <li>
-                        <b>ALEMÁN</b>
-                        <p>B1</p>
-                    </li>
-                </ul>
-            </dvi>
         </section>
-        <section>
-            <div>
+        <section class="seccion-contenedor laboral">
+            <div class="labExp">
                 <h2>EXPERIENCIA LABORAL</h2>
                 <ul>
                     <li>
@@ -55,14 +103,47 @@
                             Ingeniero de automatizacion de sistemas de subestaciones. Especialista en sistemas de protección y control (Alta y media tensión). Conocimientos de SCADA, RTU/Gateway, IEDs, Switches, DNP3, IEC 61850, AutoCAD, Retrofit, etc.
                         </p>
                     </li>
+                    <li>
+                        <b>Instituto de Investigación y Tecnología Agralimentaria (IRTA)</b><br>
+                        <b>BCaldes de Montbui, Barcelona, España</b>
+                        <p>
+                            Administración y consultas de resultados experimentales de análisis fisicoquímicos en bases de datos.
+                        </p>
+                    </li>
                 </ul>
-            </dvi>
+            </div>
+            <div class="educacion">
+                <h2>EDUCACIÓN</h2>
+                <ul>
+                    <li>
+                        <b>Pontifícia Universidad Católica Argentina</b><br>
+                        <b>Buenos Aires, Argentina</b>
+                        <p>Ingeniería en informática e ingeniería electrónica</p>
+                    </li>
+                    <li>
+                        <b>Universitat Autónoma de Barcelona</b><br>
+                        <b>Cerdanyola, Barcelona, España</b>
+                        <p>Ingeniería en informática e ingeniería electrónica de telecomunicaciones</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="habilidades">
+                <h2>HABILIDADES</h2>
+                <ul>
+                    <li>Sistemas de potencia. Soluciones de protección y control de subestaciones. Tecnologias de automatizacion y comunicación. SCADA, RTU/Gateway, Switches, IEDs, Protecciones como ABB REF615 (y más).</li>
+                    <li>AutoCAD, IEC 61850 (MMS y GOOSE), Modbus, DNP3, SPA bus, TCP/IP, comunicación Serial, etc.</li>
+                    <li>Lenguajes de programación y algoritmos. C, C++, JavaScript, PHP, Python, CSS y HTML. Arquitectura de Bases de Datos.</li>
+                    <li>Linux y Windows. Administración de redes. Routing y Switching. Virtualización.</li>
+                    <li>Gran habilidad para adaptarse y aprender nuevas tecnologias.</li>
+                    <li>Buenas habilidades comunicativas e interpesonales.</li>
+                </ul>
+            </div>
         </section>
-        <section>
+        <section class="seccion-contenedor">
             <p>Para contactar ir al siguiente link <a href="formulario.html" target="_blank">FORMULARIO DE CONTACTO</a></p>
         </section>
     </main>
-    <footer>
+    <footer class="footer-contenedor">
         <p>&#169; Todos los derechos reservados</p><br>
     </footer>
 </body>
