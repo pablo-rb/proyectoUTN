@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
 }
 body header {
-    background-color: rgb(74, 74, 74);
+    background: linear-gradient(to bottom, rgb(74, 74, 74), rgb(116, 116, 116));
 }
 h1 {
     text-align: center;
@@ -35,30 +35,19 @@ p {
     padding-bottom: 2rem;
 }
 
+.imgSwitch img {
+    border-radius: 1rem 1rem;
+    box-shadow: 0.1rem 0.1rem 5rem rgb(50, 50, 50);
+}
+
 .seccion-contenedor {
     color: white;
-    background-color: rgb(116, 116, 116);
+    background: linear-gradient(to bottom, rgb(116, 116, 116), rgb(145, 145, 145));
     padding: 0.5rem 2rem;
 }
 
-.contactoC {
-    display: flex;
-    align-content: center;
-    justify-content: space-evenly;
-}
-
-.simbolos {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.simbolos p {
-    line-height: 0;
-}
-
 .laboral {
-    background-color: rgb(145, 145, 145);
+    background: linear-gradient(to bottom, rgb(145, 145, 145), rgb(181, 181, 181));
 }
 
 .seccion-contenedor a {
@@ -68,6 +57,98 @@ p {
 
 .seccion-contenedor a:hover {
     color: antiquewhite;
+}
+
+.caja-edad {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem 1rem;
+    border-style: solid;
+    border-color: rgb(74, 74, 74);
+    background-color: rgb(74, 74, 74);
+    border-radius: 1rem 1rem;
+    box-shadow: 0.1rem 0.1rem 5rem rgb(50, 50, 50);
+}
+
+.perfil {
+    margin: 2rem 0rem;
+    width: fit-content;
+    height: fit-content;
+    padding: 0rem 1rem;
+    border-style: solid;
+    border-color: rgb(74, 74, 74);
+    background-color: rgb(74, 74, 74);
+    border-radius: 1rem 1rem;
+    box-shadow: 0.1rem 0.1rem 5rem rgb(50, 50, 50);
+}
+
+
+.contactoC {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+
+.contacto {
+    padding: 0rem 1rem;
+    border-style: solid;
+    border-color: rgb(74, 74, 74);
+    background-color: rgb(74, 74, 74);
+    border-radius: 1rem 1rem;
+    box-shadow: 0.1rem 0.1rem 5rem rgb(50, 50, 50);
+}
+
+.simbolos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-color: white;
+    border-radius: 1rem 1rem;
+    box-shadow: 0.1rem 0.1rem 1rem #888888;
+}
+
+.simbolos p {
+    line-height: 0;
+    padding: 1rem 1rem;
+}
+
+.idiomas {
+    margin: 2rem 0rem;
+    padding: 0rem 1rem;
+    border-style: solid;
+    border-color: rgb(74, 74, 74);
+    background-color: rgb(74, 74, 74);
+    border-radius: 1rem 1rem;
+    box-shadow: 0.1rem 0.1rem 5rem rgb(50, 50, 50);
+}
+
+.idiomas>ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.idiomas>ul>li>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    border-radius: 1rem 1rem;
+    box-shadow: 0.1rem 0.1rem 1rem #888888;
+    padding: 1rem 2rem;
+}
+
+.idiomas img {
+    height: 5rem;
+}
+
+.idiomas p {
+    margin: 0;
 }
 
 .footer-contenedor {
