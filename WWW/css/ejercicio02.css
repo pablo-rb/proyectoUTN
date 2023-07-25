@@ -1,0 +1,60 @@
+html {
+    font-size: 62.5%;
+    margin: 0 0;
+}
+body {
+    font-size: 16px; /* 1rem = 10px*/
+    font-family: 'Krub', sans-serif;
+    width: 120rem;
+    margin: 0 auto;
+}
+
+p {
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-principal {
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    width: fit-content;
+    height: 50rem;
+    align-items: center;
+}
+
+.numero1 {
+    background-color: red;
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numerointerno {
+    display: flex;
+}
+
+.numero2 {
+    background-color: blue;
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numero3 {
+    background-color: green;
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
