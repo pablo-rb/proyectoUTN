@@ -1,0 +1,29 @@
+
+@keyframes coffee {
+    0% {background-color: wheat;}
+    50% {background-color: lightslategray; color: white;}
+    100% {background-color: wheat;}
+  }
+
+  .tarjetas {
+    box-shadow: 0.1rem 0.1rem 2rem #888888;
+  }
+
+  #carouselExampleSlidesOnly {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .autoimg {
+    margin-bottom: 2rem;
+  }
+
+  .autoimg img {
+    border-radius: 0rem 0rem 1rem 1rem;
+    width: auto;
+    height: auto;
+  }
+
+  .navbar {
+    margin-bottom: 3rem;
+  }

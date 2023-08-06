@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilosbootstrap.css">
+</head>
+<body>
+    <div class="container" 
+    style="text-align: center;
+    font-size: 5rem;
+    animation-name: coffee;
+    animation-duration: 4s;
+    background-color: wheat;
+    border-radius: 1rem 1rem 0rem 0rem;
+    margin-bottom: 0rem;">Coffee Roasters &reg;</div>
+    <div id="carouselExampleSlidesOnly" class="container carousel slide autoimg" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./WWW/IMG/cafe1.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="./WWW/IMG/cafe2.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="./WWW/IMG/cafe3.jpeg" class="d-block w-100" alt="...">
+        </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Coffee</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Origins</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Types
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Arabic</a></li>
+                  <li><a class="dropdown-item" href="#">Blended</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+            <div class="card tarjetas">
+                <img src="./WWW/IMG/illy.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Café Illy Molido</h5>
+                <p class="card-text" style="font-size: 1rem;">Tostado Clásico Blend 100% Arábica</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card tarjetas">
+                <img src="./WWW/IMG/segafredo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Cafe Molido Segafredo</h5>
+                <p class="card-text" style="font-size: 1rem;">Espresso Casa 250g Tostado Sin Azucar</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card tarjetas">
+                <img src="./WWW/IMG/sb.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <div>
+                <h5 class="card-title">Starbucks - Café Tostado Y Molido</h5>
+                <p class="card-text" style="font-size: 1rem;">Pike Place Roast X 250gr</p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+                <div class="card tarjetas">
+                    <img src="./WWW/IMG/illy.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Café Illy Molido</h5>
+                    <p class="card-text" style="font-size: 1rem;">Tostado Clásico Blend 100% Arábica</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card tarjetas">
+                    <img src="./WWW/IMG/segafredo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Cafe Molido Segafredo</h5>
+                    <p class="card-text" style="font-size: 1rem;">Espresso Casa 250g Tostado Sin Azucar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card tarjetas">
+                    <img src="./WWW/IMG/sb.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <div>
+                    <h5 class="card-title">Starbucks - Café Tostado Y Molido</h5>
+                    <p class="card-text" style="font-size: 1rem;">Pike Place Roast X 250gr</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
